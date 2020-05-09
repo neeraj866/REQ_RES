@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Req|Res</string>
+    <string name="splash_image">splash_image</string>
+    <string name="welcome">Welcome</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="stars">*******</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last Name</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="search_note">Enter user id to search user</string>
+    <string name="id">id</string>
+    <string name="submit">Search</string>
+    <string name="list_all_users">List All Users</string>
+    <string name="logout">Logout</string>
+    <string name="create_user">Create User</string>
+    <string name="confirm_delete">Do you really want to delete this user?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="update">Update</string>
+    <string name="load_more">Load More</string>
+</resources>

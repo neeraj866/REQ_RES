@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_bg"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/search"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button_white_background_black_stroke"
+        android:drawableTop="@drawable/ic_search"
+        android:gravity="bottom|center_horizontal"
+        android:padding="20dp"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/create_user"
+        app:layout_constraintDimensionRatio="H1,1"
+        app:layout_constraintEnd_toStartOf="@id/list_all_users"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <Button
+        android:id="@+id/list_all_users"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button_white_background_black_stroke"
+        android:drawableTop="@drawable/ic_users"
+        android:gravity="bottom|center_horizontal"
+        android:padding="20dp"
+        android:text="@string/list_all_users"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/logout"
+        app:layout_constraintDimensionRatio="H1,1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/search"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <Button
+        android:id="@+id/create_user"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button_white_background_black_stroke"
+        android:drawableTop="@drawable/ic_add_user"
+        android:gravity="bottom|center_horizontal"
+        android:padding="20dp"
+        android:text="@string/create_user"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H1,1"
+        app:layout_constraintEnd_toStartOf="@id/logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search" />
+
+    <Button
+        android:id="@+id/logout"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button_white_background_black_stroke"
+        android:drawableTop="@drawable/ic_logout"
+        android:gravity="bottom|center_horizontal"
+        android:padding="20dp"
+        android:text="@string/logout"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H1,1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/create_user"
+        app:layout_constraintTop_toBottomOf="@id/list_all_users" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
