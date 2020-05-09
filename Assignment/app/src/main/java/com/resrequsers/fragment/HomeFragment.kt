@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import com.resrequsers.dependency.module.ApplicationModule
-import com.resrequsers.DaggerApplicationComponent
 import com.resrequsers.R
 import com.resrequsers.common_classes.Utility
+import com.resrequsers.dependency.components.DaggerApplicationComponent
 import com.resrequsers.models.users_models.UserResponse
 import com.resrequsers.presenter.HomePresenter
 import com.resrequsers.views.HomeView

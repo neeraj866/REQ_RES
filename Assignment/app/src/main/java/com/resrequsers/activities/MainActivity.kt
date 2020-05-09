@@ -4,13 +4,12 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import com.resrequsers.dependency.module.ApplicationModule
-import com.resrequsers.DaggerApplicationComponent
 import com.resrequsers.R
 import com.resrequsers.common_classes.Utility
+import com.resrequsers.dependency.components.DaggerApplicationComponent
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
-
 
     /*
     * this will return the object of MainActivity

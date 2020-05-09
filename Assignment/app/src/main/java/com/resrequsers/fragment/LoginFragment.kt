@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.resrequsers.dependency.module.ApplicationModule
-import com.resrequsers.DaggerApplicationComponent
 import com.resrequsers.R
 import com.resrequsers.common_classes.Utility
+import com.resrequsers.dependency.components.DaggerApplicationComponent
 import com.resrequsers.models.login_models.LoginResponse
 import com.resrequsers.presenter.LoginPresenter
 import com.resrequsers.views.LoginView

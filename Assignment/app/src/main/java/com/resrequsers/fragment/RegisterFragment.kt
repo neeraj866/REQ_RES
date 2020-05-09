@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.resrequsers.dependency.module.ApplicationModule
-import com.resrequsers.DaggerApplicationComponent
 import com.resrequsers.R
 import com.resrequsers.common_classes.Utility
+import com.resrequsers.dependency.components.DaggerApplicationComponent
 import com.resrequsers.presenter.RegistrationPresenter
 import com.resrequsers.views.RegistrationView
 import kotlinx.android.synthetic.main.fragment_register.*

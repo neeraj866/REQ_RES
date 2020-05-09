@@ -3,8 +3,8 @@ package com.resrequsers.activities
 import android.os.Bundle
 import android.os.Handler
 import com.resrequsers.dependency.module.ApplicationModule
-import com.resrequsers.DaggerApplicationComponent
 import com.resrequsers.R
+import com.resrequsers.dependency.components.DaggerApplicationComponent
 
 class SplashActivity : BaseActivity() {
 
